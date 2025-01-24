@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello Form</h1>
+      <h1>{currentUser?.displayName}</h1>
       <button onClick={SignInWithGooglePopup}>Sign In</button>
     </>
   );
